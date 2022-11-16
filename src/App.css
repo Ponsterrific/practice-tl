@@ -111,6 +111,10 @@ strong {
     text-overflow: ellipsis;
 }
 
+.text-is-done {
+    text-decoration: line-through;
+}
+
 .details {
     display: flex;
     justify-content: flex-start;

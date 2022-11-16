@@ -17,7 +17,7 @@ const ToDoList = ({ todoList, toggleTaskCompleted, setUpdateTaskData, deleteTask
                                     />
                                 </span>
                                 <span className="task-id">{index + 1}</span>
-                                <span className="task-text" title={task.title}>{task.title}</span>
+                                <span className={`task-text ${task.status ? 'text-is-done' : ''}`} title={task.title}>{task.title}</span>
                             </div>
                             <div className='actions'>
                                 {task.status ? null : (
