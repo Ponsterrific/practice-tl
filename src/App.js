@@ -109,7 +109,7 @@ const App = () => {
 
                         <br />
 
-                        <div class="filters">
+                        <div className="filters">
                             {FILTER_NAMES.map(filterName => (
                                 <FilterButton
                                     key={filterName}

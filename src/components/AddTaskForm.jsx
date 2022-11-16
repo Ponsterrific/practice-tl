@@ -6,7 +6,7 @@ const AddTaskForm = ({ addItemRef, addTask }) => {
                     ref={addItemRef}
                 />
             </span>
-            <button class="input-button" type="button" onClick={addTask}>Add task</button>
+            <button className="input-button" type="button" onClick={addTask}>Add task</button>
         </div>
     );
 }
